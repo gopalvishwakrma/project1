@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopal Project</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="JS.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="frontpageI">
+            <button class="btn" id="loginBtn">Login</button><br><br>
+            <button class="btn" id="signupBtn">Sign up</button><br><br>
+        </div>
+    </div>
+
+    <!-- background images -->
+    <div class="first-bg desktop"></div>
+    <div class="second-bg mobile"></div>
+    <div class="second-bg"></div>
+
+    <script>
+        // login page
+        document.getElementById('loginBtn').addEventListener('click', function () {
+            window.location.href = "login.html";
+        });
+
+        // sign-up page
+        document.getElementById('signupBtn').addEventListener('click', function () {
+            window.location.href = "signup.html";
+        });
+    </script>
+
+
+
+</body>
+
+</html>
